@@ -11,3 +11,37 @@ chmod +x ./shiftit.sh
 
 sudo ./shifit.sh /some/cool/directory/path
 ```
+
+## Finding the directory you're in locally
+
+To help with debugging:
+
+The below command prints your current directory
+
+```
+pwd
+```
+
+to change directories use the following `cd` command where the `myCoolFolder` should be replaced with an actual folder in your path
+
+```
+cd ./myCoolFolder
+```
+
+to go back up a directory use
+
+```
+cd ..
+```
+
+To list files in your current directory use the following
+
+```
+ls
+```
+
+to quickly get back to home use the following:
+
+```
+cd ~
+```
